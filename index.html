@@ -31,6 +31,17 @@
             margin-bottom: 30px;
             font-size: 2em;
         }
+		
+		/* Styling for subitems */
+        li ul {
+            padding-left: 20px; /* Give a little left padding for visual hierarchy */
+        }
+
+        li ul li {
+            font-size: 1.5em; /* Slightly smaller font for subitems */
+            margin-bottom: 15px; /* Reduced spacing between subitems */
+        }
+		
     </style>
 </head>
 
@@ -38,6 +49,10 @@
     <h1>Cirque</h1>
     <ul>
         <li>Tissu aérien</li>
+		<ul>
+                <li>Subitem 1 for Tissu aérien</li>
+                <li>Subitem 2 for Tissu aérien</li>
+            </ul>
         <li>Cerceau</li>
         <li>Trapèze</li>
     </ul>
