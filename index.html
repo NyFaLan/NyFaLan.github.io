@@ -27,19 +27,20 @@
             padding: 0;
         }
 
-        li {
+        /* Styling for main items */
+        ul > li {  /* Direct child selector to target only main items */
             margin-bottom: 30px;
             font-size: 2em;
         }
-		
-		/* Styling for subitems */
-        li ul {
-            padding-left: 20px; /* Give a little left padding for visual hierarchy */
+        
+        /* Styling for subitems */
+        ul li ul { /* Target ul inside an li */
+            padding-left: 20px;
         }
 
-        li ul li {
-            font-size: 1em; /* Slightly smaller font for subitems */
-            margin-bottom: 15px; /* Reduced spacing between subitems */
+        ul li ul li { /* Target li inside an ul which is inside another li */
+            font-size: 1em;
+            margin-bottom: 5px; /* Adjusted this for even less spacing */
         }
 		
     </style>
