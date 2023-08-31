@@ -41,9 +41,14 @@
         ul li ul li { /* Target li inside an ul which is inside another li */
             font-size: 1.5rem;
             margin-bottom: 5px; /* Adjusted this for even less spacing */
-        }
-		
+        }		
     </style>
+	<script>
+        function playAlienSplit() {
+            const videoLink = 'https://drive.google.com/file/d/1O-39PhMYXFp6jAjNrlIUIZi87RbwW5rE/preview'; // Replace FILE_ID with your actual file id from the shareable link
+            window.open(videoLink, '_blank');
+        }
+    </script>
 </head>
 
 <body>
@@ -105,7 +110,8 @@
 				<li>Mexicain</li>
 				<li>Écart avec même bras et même jambe accrochés</li>
 				<li>Y sous le cerceau</li>
-				<li>Alien split</li>
+				<li><a href="javascript:playAlienSplit()">Alien split</a></li> 
+				<!-- https://drive.google.com/file/d/1O-39PhMYXFp6jAjNrlIUIZi87RbwW5rE/view?usp=drive_link -->
             </ul>
         </li>
 		<li>
